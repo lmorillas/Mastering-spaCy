@@ -25,11 +25,13 @@ alt="https://www.packtpub.com/" border="5" /></a>
 
 page 10
 
-How it looks like: word.index(e)
-How it should be: word.index("e")
+How it looks like: `word.index(e)`
 
-How it looks like: vecs = np.vstack([word.vector for word in vocab if word.has_vector])
-How it should be: vecs = np.vstack([word.vector for word in vocab if word.has_vector])
+How it should be: `word.index("e")`
+
+How it looks like: `vecs = np.vstack([word.vector for word in vocab if word.has_vector])`
+
+How it should be: `vecs = np.vstack([word.vector for word in vocab if word.has_vector])`
 
 
 
@@ -37,9 +39,9 @@ How it should be: vecs = np.vstack([word.vector for word in vocab if word.has_ve
 All of the code is organized into folders. For example, Chapter02.
 
 The code will look like the following:
-```
+```python
 import spacy
-nlp = spacy.load("en_subwords_wiki_lg"
+nlp = spacy.load("en_subwords_wiki_lg")
 ```
 
 **Following is what you need for this book:**
